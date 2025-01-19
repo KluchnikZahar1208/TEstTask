@@ -12,7 +12,7 @@ namespace TestTask.Services.Implementations
     public class BookService : IBookService
     {
         private readonly ApplicationDbContext _db;
-        private static readonly DateTime CarolusRexAlbumReleaseDate = new DateTime(2012, 5, 25); // Дата выпуска альбома "Carolus Rex"
+        private static readonly DateTime CarolusRexAlbumReleaseDate = new DateTime(2012, 5, 25);
         private static readonly string BookTitleFilterWord  = "Red";
         public BookService(ApplicationDbContext db)
         {
